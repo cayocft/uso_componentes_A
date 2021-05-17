@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { ContactoPageRoutingModule } from './contacto-routing.module';
+import { ComponentsModule } from '../../components/components.module';
 
 import { ContactoPage } from './contacto.page';
 
@@ -13,6 +14,7 @@ import { ContactoPage } from './contacto.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentsModule,
     ContactoPageRoutingModule
   ],
   declarations: [ContactoPage]
